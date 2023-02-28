@@ -1,0 +1,11 @@
+einopseinops
+nltk
+numpy
+Pillow
+rouge-score
+scipy
+sentencepiece
+tokenizers==0.13.2
+tqdm
+transformers==4.21.1
+googletrans==3.1.0a0
