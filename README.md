@@ -1,7 +1,7 @@
 # SloganGeneration
 
 ## **Evironment**
-1. cuda 버전에 맞는 torch 다운
+1. 설치된 cuda 버전에 맞는 torch 다운
 > training과 inference 시 사용한 torch 버전.
   ```
   torch                    1.13.0
@@ -9,7 +9,8 @@ torchaudio               0.12.1
 torchmetrics             0.11.0
 torchvision              0.14.0
   ```
-2. requirements.txt 속 관련 패키지 설치 명령어 
+2. requirements.txt 모델을 실행하기 위한 관련 패키지 정보
+> 설치 명령어
 <pre><code>pip install -r requirement.txt</code></pre>
 
 ## 파일 설명
