@@ -36,7 +36,7 @@ torchvision              0.14.0
 ※ 영어 학습 모델 변경시, inference 코드에서 파일명만 위 3개중 하나로 변경 가능
 
 ## ▶ How to Run
-	<pre><code> python inference.py --input "브랜드 관련 설명" --num_sequences 5 --language "trans" </code></pre>
+	python inference.py --input "브랜드 관련 설명" --num_sequences 5 --language "trans"
   
 ```
 ㄴinput : 브랜드 관련 설명, 문장이 들어감
