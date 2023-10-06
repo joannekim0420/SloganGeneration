@@ -1,15 +1,15 @@
 # SloganGeneration
 
-Accpeted in CIKM 2023 short paper.
+Accpeted in CIKM 2023 short paper.  
 
-Title : Slogan Generation with Noise Perturbation <br>
+Title : Slogan Generation with Noise Perturbation  
 link : TBU
 
 ## **Evironment**
-1. Prepare Data\n
-	Data format should be source-target pair matching. 
-	(data from paper) <pre><code> python crawl_Slogan.py </code></pre> <br>
-	(your own data) prepare your own data in csv file with 2 column including source and target. <br>
+1. Prepare Data   
+	Data format should be source-target pair matching.    
+	(data from paper) <pre><code> python crawl_Slogan.py </code></pre> 
+	(your own data) prepare your own data in csv file with 2 column including source and target.
 
 3. Download Cuda with adaptable version
 > My version of torch version.
