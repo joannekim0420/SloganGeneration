@@ -19,7 +19,7 @@ torchaudio               0.12.1
 torchmetrics             0.11.0
 torchvision              0.14.0
   ```
-### 3. install necessary packages in requirements.txt
+### 3. Install necessary packages in requirements.txt
 > installation
 <pre><code>pip install -r requirement.txt</code></pre>
 
