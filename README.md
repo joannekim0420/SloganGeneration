@@ -8,7 +8,7 @@ link : TBU
 ## **Evironment**
 1. Prepare Data   
 	Data format should be source-target pair matching.    
-	(data from paper) <pre><code> python crawl_Slogan.py </code></pre> 
+	- data from paper is crawled from sloganlist.com (https://sloganlist.com) based on crawling_slogan.ipynb . 
 	(your own data) prepare your own data in csv file with 2 column including source and target.
 
 3. Download Cuda with adaptable version
