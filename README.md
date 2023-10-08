@@ -6,12 +6,12 @@ Title : Slogan Generation with Noise Perturbation
 link : TBU
 
 ## **Evironment**
-1. Prepare Data   
+### 1. Prepare Data   
 	Data format should be source-target pair matching.    
 	- data from paper is crawled from (https://sloganlist.com) based on crawling_slogan.ipynb. 
 	- (your own data) prepare your own data in csv file with 2 column including source and target.
 
-3. Download Cuda with adaptable version
+#### 2. Download Cuda with adaptable version
 > My version of torch version.
   ```
   torch                    1.13.0
@@ -19,7 +19,7 @@ torchaudio               0.12.1
 torchmetrics             0.11.0
 torchvision              0.14.0
   ```
-3. install necessary packages in requirements.txt
+### 3. install necessary packages in requirements.txt
 > installation
 <pre><code>pip install -r requirement.txt</code></pre>
 
