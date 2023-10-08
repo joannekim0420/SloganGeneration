@@ -11,7 +11,7 @@ link : TBU
 	- data from paper is crawled from (https://sloganlist.com) based on crawling_slogan.ipynb. 
 	- (your own data) prepare your own data in csv file with 2 column including source and target.
 
-#### 2. Download Cuda with adaptable version
+### 2. Download Cuda with adaptable version
 > My version of torch version.
   ```
   torch                    1.13.0
