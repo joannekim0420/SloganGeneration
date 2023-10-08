@@ -8,8 +8,8 @@ link : TBU
 ## **Evironment**
 1. Prepare Data   
 	Data format should be source-target pair matching.    
-	- data from paper is crawled from sloganlist.com (https://sloganlist.com) based on crawling_slogan.ipynb . 
-	(your own data) prepare your own data in csv file with 2 column including source and target.
+	- data from paper is crawled from (https://sloganlist.com) based on crawling_slogan.ipynb. 
+	- (your own data) prepare your own data in csv file with 2 column including source and target.
 
 3. Download Cuda with adaptable version
 > My version of torch version.
@@ -25,13 +25,15 @@ torchvision              0.14.0
 
 ## 파일 설명
 ```bash
-├── infer_model #inference 시 필요한 사전 학습된 모델들이 저장되어 있는 곳
-│   ├── mt5-kr0131-Noise1+ep1200  #: 한국어 사전 학습 모델
+├── infer_model # where pretrained models are saved for inference 
+│   ├── mt5-kr0131-Noise1+ep1200  #: pretrained korean model
 │   │    ├── pytorch_model.bin  
 │   │    ├── pytorch_model700.bin / pytorch_model800.bin 
 │   │    └── tokenizer_config.json / config.json 
-│   ├── t5-ensg-Noise1+ep50  #: 영어 t5 small 사전 학습 모델
-└── inference.py  #실제 inference 코드
+│   ├── t5-ensg-Noise1+ep50  #: english t5 small pre-trained model
+├── crawling_slogan.ipynb # code for crawling slogans in sloganlist.com
+├── inference.py  # inference code
+└── requirements.txt #env settings
 
 ``` 
 
