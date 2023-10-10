@@ -2,8 +2,8 @@
 
 Accpeted in CIKM 2023 short paper.  
 
-Title : Slogan Generation with Noise Perturbation  
-link : TBU
+[Title] Slogan Generation with Noise Perturbation  
+[paper link](https://arxiv.org/abs/2310.04472)
 
 ## **Evironment**
 ### 1. Prepare Data   
