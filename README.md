@@ -7,9 +7,12 @@ Accpeted in CIKM 2023 short paper.
 
 ## **Evironment**
 ### 1. Prepare Data   
-	Data format should be source-target pair matching.    
-	- data from paper is crawled from (https://sloganlist.com) based on crawling_slogan.ipynb. 
-	- (your own data) prepare your own data in csv file with 2 column including source and target.
+<img src = "https://github.com/joannekim0420/SloganGeneration/blob/main/crawl_img.png" width="40%" height="%">    
+	
+ Data format should be source-target pair matching.    
+- data from paper is crawled from (https://sloganlist.com) based on crawling_slogan.ipynb. 
+- (your own data) prepare your own data in csv file with 2 column including source and target.
+
 
 ### 2. Download Cuda with adaptable version
 > My version of torch version.
@@ -19,11 +22,13 @@ torchaudio               0.12.1
 torchmetrics             0.11.0
 torchvision              0.14.0
   ```
+
 ### 3. Install necessary packages in requirements.txt
 > installation
 <pre><code>pip install -r requirement.txt</code></pre>
 
-## 파일 설명
+
+### 파일 설명
 ```bash
 ├── infer_model # where pretrained models are saved for inference 
 │   ├── mt5-kr0131-Noise1+ep1200  #: pretrained korean model
